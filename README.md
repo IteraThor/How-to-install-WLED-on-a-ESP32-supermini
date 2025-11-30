@@ -1,10 +1,8 @@
 # 💡 WLED Installation on ESP32 Supermini: Workaround Guide
 
-If you encounter issues (e.g., disconnections) installing WLED directly via the official web installer, this guide provides a stable workaround using **Tasmota** as an intermediate step.
+If you encounter issues (e.g., disconnections) installing WLED directly via the [official web installer](https://install.wled.me/), this guide provides a stable workaround using **Tasmota** as an intermediate step.
 
 ## 🛠️ Step 1: Connect in Bootloader Mode
-
-To prevent connection drops and ensure successful flashing, connect your ESP32 in **Bootloader Mode**:
 
 1.  Use a **USB data cable** (not a power-only cable).
 2.  **Hold down** the **BOOT button** on the ESP32 Supermini.
@@ -19,13 +17,11 @@ To prevent connection drops and ensure successful flashing, connect your ESP32 i
 
 ## 🌐 Step 3: Connect Tasmota to your Home WiFi
 
-1.  Reconnect the USB connection (do **not** hold the BOOT button this time).
-2.  Using your PC or phone, connect to the **Access Point** automatically created by the ESP32 (Tasmota).
-3.  A captive portal login page should pop up. Use it to select and connect to your regular **Home WiFi** network.
+1.  Reconnect the USB connection (do not hold the BOOT button this time).
+2.  Using your PC or phone, connect to the Tasmota Access Point automatically created by the ESP32.
+3.  A captive portal login page should pop up. Use it to select and connect to your regular Home WiFi network.
 
 ## 🔍 Step 4: Figure Out Your ESP32's IP
-
-You need the IP address assigned to the ESP32 by your router.
 
 ### Option 1: Router Settings
 * Check your router's client list to find the IP address assigned to the Tasmota device.
