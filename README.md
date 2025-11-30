@@ -1,6 +1,6 @@
 # 💡 WLED Installation on ESP32 Supermini: Workaround Guide
 
-If you encounter issues (e.g., disconnections) installing WLED directly via the [official web installer](https://install.wled.me/), this guide provides a stable workaround using **Tasmota** as an intermediate step.
+If you encounter issues installing WLED directly to your [ESP32-Supermini](https://s.click.aliexpress.com/e/_c2vLv9IV) via the [official web installer](https://install.wled.me/), this guide provides a stable workaround using **Tasmota** as an intermediate step.
 
 ## 🛠️ Step 1: Connect in Bootloader Mode
 
